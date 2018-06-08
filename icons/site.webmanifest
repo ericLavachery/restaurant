@@ -1,0 +1,19 @@
+{
+    "name": "Mes Boules",
+    "short_name": "Mes Boules",
+    "icons": [
+        {
+            "src": "/icons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/icons/android-chrome-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fffe00",
+    "background_color": "#fffe00",
+    "display": "standalone"
+}

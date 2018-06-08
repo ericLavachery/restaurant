@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mes Boules Mickey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+         $(document).ready(function(){
+             // fixe la navbar si écran non mobile
+             var screenxs = 768;
+             if (window.innerWidth >= screenxs) {
+                 $(".navbar").addClass("navbar-fixed-top");
+             }
+         });
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/icons/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#fffe00">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#d3d200">
+    <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#fffe00">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MES BOULES MICKEY</a><br>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="active"><a href="index.html">Accueil</a></li>
+      <li><a href="carte.html">Carte</a></li>
+      <li><a href="pics.html">Photos</a></li>
+      <li><a href="restos.html">Restaurants</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+    <div class="jumbotron">
+        <h1>Mes Boules Mickey</h1>
+        <h2>Parce que Ma Queue Donald, c'est déjà pris...</h2>
+        <p>Maintenant un peu d'italien pour faire bien:</p>
+        <p>Blandit similique id est, facete utroque partiendo eam te. Te simul blandit quo, vis intellegam theophrastus id. Te vix postea forensibus, ferri eruditi verterem nam no. Tota vivendo per et, his id alii vidit.</p>
+        <p>SVP, arrêtez de m'envoyer des mails pour me dire que c'est du latin.</p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-5">
+            <div class="panel panel-default">
+                <div class="panel-heading">Nouvelles chaudes</div>
+                <div class="panel-body">
+                    <h3>Nouveau salon à Erps Kwerps</h3>
+                    <p>Lorem ipsum dolor sit amet, ut mazim offendit partiendo his, ei vel ludus audiam. Vel tamquam recusabo conclusionemque cu, feugait insolens corrumpit et eam. Ei utamur dolorem omnesque est. Etiam augue usu te, ex habeo graeci definiebas his, in legere legendos quaestio ius.</p>
+                    <p>Jules César sera content, pour une fois il pige quelque chose à un site web. Nous, par contre...</p>
+                    <img class="img-responsive img-rounded" src="img/erps.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="panel panel-default">
+                <div class="panel-heading">Promo du sciècle</div>
+                <div class="panel-body">
+                    <h3>Le Planta Schtroumpf <span class="badge">9,00 €</span></h3>
+                    <img class="img-responsive img-rounded" src="img/butter.jpg" alt="">
+                    <p>Une description qui te fais croire que c'est bon. Dœlores adversarium sed éu, congué salutatus cû vim, vérïtûs maîôrum înîmïcus in sït. Graêço sapèrét ét vïm, dîcàt simûl utamur cum nè, ét omnïum pôsidœnïum mèa. Ut errêm dèsërùîsse vïm, pericùlà reprïmiqùe inciderint at sed! Eûm éi porro error volùptùa.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" id="footer">© 2018 Copyright: Chikichiki Aïe Aïe</div>
+</div>
+
+<script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+              // Registration was successful
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+              // registration failed :(
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
+        }
+</script>
+
+</body>
+</html>

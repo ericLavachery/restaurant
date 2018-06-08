@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Mes Boules Mickey</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript">
+         $(document).ready(function(){
+             // fixe la navbar si écran non mobile
+             var screenxs = 768;
+             if (window.innerWidth >= screenxs) {
+                 $(".navbar").addClass("navbar-fixed-top");
+             } else {
+                 $(".trucodsu").hide();
+             }
+         });
+    </script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="194x194" href="/icons/favicon-194x194.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/icons/site.webmanifest">
+    <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#fffe00">
+    <link rel="shortcut icon" href="/icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#d3d200">
+    <meta name="msapplication-TileImage" content="/icons/mstile-144x144.png">
+    <meta name="msapplication-config" content="/icons/browserconfig.xml">
+    <meta name="theme-color" content="#fffe00">
+</head>
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">MES BOULES MICKEY</a><br>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="index.html">Accueil</a></li>
+      <li class="active"><a href="carte.html">Carte</a></li>
+      <li><a href="pics.html">Photos</a></li>
+      <li><a href="restos.html">Restaurants</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+
+    <div class="trucodsu"></div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive img-rounded" src="img/moss.jpg" alt="">
+        </div>
+        <div class="col-md-6">
+            <div class="panel-group" id="accordion">
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g0" data-toggle="collapse" data-parent="#accordion">Psilo Burger <span class="badge">9,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g0" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/burger.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g1" data-toggle="collapse" data-parent="#accordion">Tchernobyl Special <span class="badge">17,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g1" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/shit.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g2" data-toggle="collapse" data-parent="#accordion">Planta Schtroumpf <span class="badge">21,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g2" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/butter.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g3" data-toggle="collapse" data-parent="#accordion">Fresh Brain <span class="badge">33,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g3" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/freshbrain.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g4" data-toggle="collapse" data-parent="#accordion">Pro-Life Special <span class="badge">55,00 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g4" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/abort.jpg" alt=""></div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a href="#g5" data-toggle="collapse" data-parent="#accordion">Le Mes Boules Mickey <span class="badge">336,12 €</span></a>
+                    </h4>
+                  </div>
+                  <div id="g5" class="panel-collapse collapse">
+                    <div class="panel-body"><img class="img-responsive img-rounded" src="img/mickey.jpg" alt=""></div>
+                  </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading" id="footer">© 2018 Copyright: Chikichiki Aïe Aïe</div>
+</div>
+
+<script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('service-worker.js').then(function(registration) {
+              // Registration was successful
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+              // registration failed :(
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
+        }
+</script>
+
+</body>
+</html>
